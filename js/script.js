@@ -8,7 +8,7 @@ var indirizzo = prompt("Inserisci email" );
 
  
 if ( indirizzoEmail === indirizzoEmail){
-    console.log( indirizzoEmail);
+    console.log("Utente trovato", indirizzoEmail);
 } else{
     console.log("email non valida");
 }
