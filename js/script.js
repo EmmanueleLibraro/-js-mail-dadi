@@ -34,7 +34,6 @@ var vincitore;
 
 if (giocatore > computer){
     alert("Complimenti, hai vinto");
-
 }else if (giocatore == computer){
     alert("Pareggio!");
 }else{
