@@ -24,12 +24,40 @@ if (trovataEmailValida){
 
 
 //DADO
+var giocatore = Math.floor(Math.random() * 6) + 1;
+console.log(giocatore);
+
+var computer = Math.floor(Math.random() * 6) + 1;
+console.log(computer);
+
+var vincitore;
+
+if (giocatore > computer){
+    alert("Complimenti, hai vinto");
+
+}else if (giocatore == computer){
+    alert("Pareggio!");
+}else{
+    alert("Hai perso, ritenta!");
+}
+    
+
+
+
+
+
+
+
+
+
+
+
 // var numero = ['1', '2', '3', '4', '5', '6'];
 
 // console.log(numero);
 
-// for (var i = 0; i < numero.length; i++) {
+//  for (var i = 0; i < numero.length; i++) {
 
-// }
+//  }
 
-// var giocatore = parseInt( prompt("Inserisci un numero da 1 a 6") );
+//  var giocatore = parseInt( prompt("Inserisci un numero da 1 a 6") );
