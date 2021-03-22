@@ -4,4 +4,11 @@ var indirizzoEmail = ['pollino@live.it', 'lollino@live.it', 'picco@live.it'];
 console.log(indirizzoEmail);
 console.log("Numero elementi array", indirizzoEmail.length);
 
-var indirizzo = prompt("Inserisci email");
+var indirizzo = prompt("Inserisci email" );
+
+ 
+if ( indirizzoEmail === indirizzoEmail){
+    console.log( indirizzoEmail);
+} else{
+    console.log("email non valida");
+}
