@@ -28,10 +28,10 @@ if (trovataEmailValida){
 
 //DADO
 var giocatore = Math.floor(Math.random() * 6) + 1;
-console.log(giocatore);
+console.log("Giocatore", giocatore);
 
 var computer = Math.floor(Math.random() * 6) + 1;
-console.log(computer);
+console.log("Computer", computer);
 
 var vincitore;
 
