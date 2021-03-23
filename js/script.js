@@ -15,6 +15,7 @@ var trovataEmailValida = false;
 for (var i = 0; i < indirizzoEmail.length; i++){
     if (indirizzo === indirizzoEmail[i]){
         trovataEmailValida = true;
+        break;
     } 
 }
 
@@ -41,24 +42,3 @@ if (giocatore > computer){
 }else{
     alert("Hai perso, ritenta!");
 }
-    
-
-
-
-
-
-
-
-
-
-
-
-// var numero = ['1', '2', '3', '4', '5', '6'];
-
-// console.log(numero);
-
-//  for (var i = 0; i < numero.length; i++) {
-
-//  }
-
-//  var giocatore = parseInt( prompt("Inserisci un numero da 1 a 6") );
