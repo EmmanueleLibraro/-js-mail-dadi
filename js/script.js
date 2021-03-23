@@ -1,15 +1,17 @@
 //Chiedi all’utente la sua email, stampa un messaggio appropriato sull’esito del controllo.
 
 
-//EMAIL
+//EMAIL-VERIFICA DATA BASE
 var indirizzoEmail = ['pollino@live.it', 'lollino@live.it', 'picco@live.it'];
 console.log(indirizzoEmail);
 console.log("Numero elementi array", indirizzoEmail.length);
 
+//EMAIL INSERITA DALL'UTENTE
 var indirizzo = prompt("Inserisci email");
 
 var trovataEmailValida = false;
 
+//CONDIZIONI VERIFICA
 for (var i = 0; i < indirizzoEmail.length; i++){
     if (indirizzo === indirizzoEmail[i]){
         trovataEmailValida = true;
@@ -33,7 +35,7 @@ console.log(computer);
 var vincitore;
 
 if (giocatore > computer){
-    alert("Complimenti, hai vinto");
+    alert("Complimenti, hai vinto!");
 }else if (giocatore == computer){
     alert("Pareggio!");
 }else{
